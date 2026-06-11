@@ -21,7 +21,7 @@ jobs:
       matrix:
         environment:
           - out: esp32-e32r40t
-            env: esp32-e32r40t
+            env: my_custom_build
 
     steps:
       - uses: actions/checkout@v6
